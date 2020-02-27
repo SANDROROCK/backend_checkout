@@ -1,0 +1,20 @@
+{
+  "name": "BACKEND",
+  "version": "1.0.0",
+  "description": "BackEnd do checkout ",
+  "main": "index.js",
+  "author": "Alessandro Rocha",
+  "license": "MIT",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "consolidate": "^0.15.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mercadopago": "^1.3.1",
+    "mongoose": "^5.9.2",
+    "nodemon": "^2.0.2",
+    "yargs": "^15.1.0"
+  }
+}
