@@ -1,11 +1,6 @@
-const { Router } = require("express");
+const routes = require("express").Router();
+const ControllerTransacao = require("./controllers/ControllerTransacao");
 
-const Rota = Router();
+routes.get("/payments", ControllerTransacao.checkout);
 
-Rota.get("/", (req, res) => {
-  return res.send({
-    message: "Tudo Certo"
-  });
-});
-
-module.exports = Rota;
+module.exports = routes;
